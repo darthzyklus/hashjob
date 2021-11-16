@@ -111,8 +111,8 @@ const init = async () => {
   await saveRates(rates);
 };
 
-const scaper = {};
+const scraper = {};
 
 scraper.init = init;
 
-module.exports = scaper;
+module.exports = scraper;
