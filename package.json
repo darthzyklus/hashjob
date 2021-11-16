@@ -1,0 +1,25 @@
+{
+  "name": "hashjob",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "env-cmd jest",
+    "scraper": "env-cmd node scraper.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "jest": "^27.3.1"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "fastify": "^3.24.0",
+    "fastify-static": "^4.5.0",
+    "point-of-view": "^4.15.2",
+    "pretty": "^2.0.0"
+  }
+}
