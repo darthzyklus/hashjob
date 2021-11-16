@@ -12,7 +12,7 @@ fastify.get("/", async (_, reply) => {
 });
 
 fastify.get("/api/rates", async (_, reply) => {
-  const data = await fs.readFile("./rates.json", "utf8").catch((error) => {
+  const data = await fs.readFile("./data/rates.json", "utf8").catch((error) => {
     console.log(error.message);
   });
 
