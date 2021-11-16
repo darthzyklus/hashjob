@@ -1,2 +1,2 @@
-web: npm start
-clock: node schedule.js
+web:npm start
+clock:node schedule.js

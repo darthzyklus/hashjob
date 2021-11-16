@@ -70,7 +70,11 @@ const saveRates = async (rates) => {
     storeData.data = json.data;
   }
 
-  await fs.writeFile("./data/rates.json", JSON.stringify(storeData));
+  await fs
+    .writeFile("./data/rates.json", JSON.stringify(storeData))
+    .catch((error) => {
+      console.log(error.message);
+    });
 };
 
 const getRates = async ($html) => {
