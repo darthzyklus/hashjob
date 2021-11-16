@@ -19,6 +19,7 @@
     "cheerio": "^1.0.0-rc.10",
     "fastify": "^3.24.0",
     "fastify-static": "^4.5.0",
+    "node-schedule": "^2.0.0",
     "point-of-view": "^4.15.2",
     "pretty": "^2.0.0"
   }

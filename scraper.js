@@ -105,10 +105,14 @@ const getRates = async ($html) => {
   return rates;
 };
 
-const main = async () => {
+const init = async () => {
   const $html = await scrapeUrl();
   const rates = await getRates($html);
   await saveRates(rates);
 };
 
-main();
+const scaper = {};
+
+scraper.init = init;
+
+module.exports = scaper;
