@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "env-cmd jest",
-    "scraper": "env-cmd node scraper.js"
+    "scraper": "env-cmd node scraper.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
